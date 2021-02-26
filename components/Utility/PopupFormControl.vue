@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "PopupFormElement",
+  name: "PopupFormControl",
 };
 </script>
 

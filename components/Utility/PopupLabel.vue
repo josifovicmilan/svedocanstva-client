@@ -1,13 +1,13 @@
 <template>
-    $END$
+  <div class="ml-4 w-2/6 text-sm">
+    <slot></slot>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "PopupLabel"
-    }
+export default {
+  name: "PopupLabel",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

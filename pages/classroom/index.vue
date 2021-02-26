@@ -1,10 +1,12 @@
 <template>
-    $END$
+   <app-container>
+     <classroom-list></classroom-list>
+   </app-container>
 </template>
 
 <script>
     export default {
-        name: "index"
+
     }
 </script>
 

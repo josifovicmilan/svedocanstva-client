@@ -1,13 +1,13 @@
 <template>
-    $END$
+  <div class="flex flex-1">
+    <slot></slot>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "AppContainer"
-    }
+export default {
+  name: "AppContainer",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

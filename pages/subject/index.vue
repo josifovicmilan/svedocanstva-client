@@ -1,13 +1,18 @@
 <template>
-    $END$
+  <app-container>
+    <subject-list></subject-list>
+  </app-container>
 </template>
 
 <script>
-    export default {
-        name: "index"
-    }
+import Popup from "../../components/Utility/PopupCard";
+import SubjectList from "../../components/Subject/SubjectList";
+export default {
+  components: {
+    Popup,
+    SubjectList,
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
